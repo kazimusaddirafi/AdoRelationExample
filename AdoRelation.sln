@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoRelation", "AdoRelation\AdoRelation.csproj", "{BA9C1BB7-40AD-4D96-B07A-58C0C9F66584}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA9C1BB7-40AD-4D96-B07A-58C0C9F66584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA9C1BB7-40AD-4D96-B07A-58C0C9F66584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA9C1BB7-40AD-4D96-B07A-58C0C9F66584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA9C1BB7-40AD-4D96-B07A-58C0C9F66584}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78FCAF3E-5C36-48D5-9E0B-B2DAF514C8DD}
+	EndGlobalSection
+EndGlobal

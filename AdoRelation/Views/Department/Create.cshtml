@@ -1,0 +1,14 @@
+﻿@model AdoRelation.Models.Department;
+
+<h4>Create Department</h4>
+
+<form asp-action="Create">
+    <div class="mb-3">
+        <label asp-for="DepartmentName" class="form-label">Department Name</label>
+        <input asp-for="DepartmentName" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <span asp-validation-for="DepartmentName" class="text-danger"></span>
+    </div>
+  
+    <button type="submit" class="btn btn-primary">Submit</button>
+    @Html.AntiForgeryToken()
+</form>
